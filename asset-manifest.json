@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-App-To-Do-List/static/css/main.90a70d6d.css",
-    "main.js": "/React-App-To-Do-List/static/js/main.55ba4ca8.js",
+    "main.js": "/React-App-To-Do-List/static/js/main.853ac86d.js",
     "static/js/453.9962cd31.chunk.js": "/React-App-To-Do-List/static/js/453.9962cd31.chunk.js",
     "static/media/back.jpg": "/React-App-To-Do-List/static/media/back.06c42834019667c0acaa.jpg",
     "static/media/iphone-alarm.m4a": "/React-App-To-Do-List/static/media/iphone-alarm.abac5990ac4115ac1613.m4a",
@@ -9,11 +9,11 @@
     "static/media/logo.png": "/React-App-To-Do-List/static/media/logo.9990a8764aeec6bc21e7.png",
     "index.html": "/React-App-To-Do-List/index.html",
     "main.90a70d6d.css.map": "/React-App-To-Do-List/static/css/main.90a70d6d.css.map",
-    "main.55ba4ca8.js.map": "/React-App-To-Do-List/static/js/main.55ba4ca8.js.map",
+    "main.853ac86d.js.map": "/React-App-To-Do-List/static/js/main.853ac86d.js.map",
     "453.9962cd31.chunk.js.map": "/React-App-To-Do-List/static/js/453.9962cd31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.90a70d6d.css",
-    "static/js/main.55ba4ca8.js"
+    "static/js/main.853ac86d.js"
   ]
 }
