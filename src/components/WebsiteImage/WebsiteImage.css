@@ -1,0 +1,28 @@
+.asal-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+}
+
+.asal-logo-welcome {
+    height: 100px;
+    justify-self: center;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+
+    .asal-logo {
+        height: 30px;
+    }
+
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+
+    .asal-logo {
+        height: 35px;
+    }
+
+}

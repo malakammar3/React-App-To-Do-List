@@ -1,0 +1,28 @@
+.weather {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.weather p {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.weather-messages {
+    font-size: 2px;
+}
+
+.icon {
+    justify-self: center;
+    align-self: center;
+}

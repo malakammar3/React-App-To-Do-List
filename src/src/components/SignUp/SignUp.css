@@ -1,0 +1,20 @@
+.signup-input {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-top: 100px;
+    color: black;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.signup-input form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+
+}

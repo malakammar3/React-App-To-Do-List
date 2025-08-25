@@ -1,0 +1,41 @@
+.user-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 50px;
+  }
+
+.user-text {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.itemText {
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+.navItem {
+    list-style-type: none;
+    column-gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navAnchor {
+  color: black;          /* default color */
+  text-decoration: none; /* optional: remove underline */
+  border-bottom: 3px solid transparent;
+  transition: border-bottom-color 0.15s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.navAnchor:hover {
+  border-bottom-color: rgba(255,209,0,255);
+  cursor: pointer;
+}

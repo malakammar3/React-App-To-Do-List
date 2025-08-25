@@ -1,0 +1,32 @@
+.asal-logo, .user-image {
+    display: inline-block;
+    vertical-align: middle;
+    height: 25px;
+}
+
+.user-image:hover {
+    cursor: pointer;
+}
+
+.asal-logo-welcome {
+    height: 100px;
+    justify-self: center;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+
+    .asal-logo, .user-image {
+        height: 30px;
+    }
+
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+
+    .asal-logo, .user-image {
+        height: 35px;
+    }
+
+}

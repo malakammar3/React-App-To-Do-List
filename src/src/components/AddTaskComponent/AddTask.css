@@ -1,0 +1,45 @@
+.add-task-content {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    /* display: grid; */
+    justify-content: space-between;
+    /* grid-template-rows: 80px 50px; */
+    align-items: center;
+
+}
+
+.add-task-content input {
+    border-radius: 10px;
+}
+
+.add-task-content form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+
+    .add-task-content {
+        /*nested layouts -> horizontal layout*/
+        display: flex; /*flexible layout when layout changing*/
+        justify-content: space-between; /*horizontal alignment*/
+    }  
+
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+    
+    .add-task-content {
+        /*nested layouts -> horizontal layout*/
+        display: grid; /*flexible layout when layout changing*/
+        grid-template-columns: 1fr;
+        justify-content: center; /*horizontal alignment*/
+        align-items: center;        
+    } 
+
+}

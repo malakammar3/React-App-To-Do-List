@@ -1,0 +1,34 @@
+.welcome-container {
+    background-image: url('../../imgs/back.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;    
+    background: 
+    linear-gradient(rgba(250, 250, 250, 0.5), rgba(250, 250, 250, 1), rgba(250, 250, 250, 1), rgba(236, 223, 102, 0.9)), /* semi-transparent overlay */
+    url('../../imgs/back.jpg') center/cover no-repeat;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.displayed-welcome {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+
+}
+
+.welcome-text {
+    justify-self: center;
+    text-align: center;
+
+}
+

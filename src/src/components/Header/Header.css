@@ -1,0 +1,33 @@
+.header {
+    grid-area: header;
+}
+
+.header-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 5px;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: rgba(255, 209, 0, 0.15);*/
+    background-color: rgba(245,245,245,255);
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+
+    .header-container {
+        padding: 10px;
+    }
+
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+    
+    .header-container {
+        padding: 10px 20px;
+    }
+
+}

@@ -1,0 +1,28 @@
+.to-do-list {
+    overflow-y: auto;
+    height: 150px;
+    width: 300px;
+    justify-self: center;
+    border-style: solid;
+    border-color: rgba(245,245,245,255);
+    border-width: 1.5px;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+
+    .to-do-list {
+        width: 100%;
+    }
+
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+
+    .to-do-list {
+        width: 90vw;
+        height: 40vh;
+    }
+    
+}

@@ -1,0 +1,62 @@
+.input-content {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text-input, .text-label {
+    text-align: left;
+}
+
+.text-label {
+    font-weight: bold;
+    font-size: 0.8rem;
+
+}
+
+input {
+    padding: 0.5rem;
+    min-width: 100px;
+    transition: border-width 0.15s;
+    border-radius: 10px;
+}
+
+input:focus {
+    border-width: 2px;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+    
+    .input-content {
+        column-gap: 25px;
+    }  
+
+    input {
+        width: 30vw;
+    } 
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+
+    .input-content {
+        column-gap: 15px;
+    }  
+
+    input {
+        width: 50vw;
+    }
+
+    .text-label {
+        font-size: 1.2rem;
+    }
+
+    .text-input {
+        font-size: 0.9rem;
+    }
+    
+}

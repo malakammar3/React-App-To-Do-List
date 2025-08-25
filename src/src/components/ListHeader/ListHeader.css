@@ -1,0 +1,23 @@
+.list-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(245,245,245,255); /*adds transparency*/
+    align-items: center;
+}
+
+.list-title {
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 10px 3px;
+    margin: 0px;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+    
+    .list-title {
+        font-size: 1rem;
+    }
+
+}

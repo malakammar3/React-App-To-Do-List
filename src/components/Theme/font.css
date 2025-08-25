@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Co Headline W23 Arabic Light";
+    src: url("https://db.onlinewebfonts.com/t/5b0eb7ba1858df7986075e15319da492.eot");
+    src: url("https://db.onlinewebfonts.com/t/5b0eb7ba1858df7986075e15319da492.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/5b0eb7ba1858df7986075e15319da492.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/5b0eb7ba1858df7986075e15319da492.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/5b0eb7ba1858df7986075e15319da492.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/5b0eb7ba1858df7986075e15319da492.svg#Co Headline W23 Arabic Light")format("svg");
+}
+
+* {
+    font-family: "Co Headline W23 Arabic Light";
+    box-sizing: border-box; /*the total space includes padding and border for consistent layout*/
+}
+
+
+body {
+    font-size: 1.5rem; /*16 px based on the root html font size*/
+    background-color: rgb(255, 255, 255);
+}
+
+html, body {
+    height: 100vh; /*100% of the viewport height*/
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    min-height: 480px;
+}
+
+
+.body-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+}

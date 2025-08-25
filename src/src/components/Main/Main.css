@@ -1,0 +1,28 @@
+.main {
+    grid-area: main;
+}
+
+.main-content-container {
+    align-items: flex-start;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
+/* For Tablet */
+@media (min-width: 769px) {
+    .main-content-container {
+        width: 100%; /*percent of parent element*/
+        align-items: flex-start; /*vertical alignment*/
+        padding-top: 30px;
+        justify-content: center;
+    }
+}
+
+/* For Desktop */
+@media (min-width: 1201px) {
+    .main-content-container {
+        align-items: flex-start; /*vertical alignment*/
+        padding-top: 50px;
+    }
+}
